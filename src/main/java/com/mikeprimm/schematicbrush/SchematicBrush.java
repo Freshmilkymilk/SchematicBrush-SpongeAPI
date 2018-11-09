@@ -56,7 +56,7 @@ import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
 
 
-@Plugin(id = "schematicbrush", name = "schematicbrush", version = "1.1.2", dependencies = @Dependency(id = "worldedit"))
+@Plugin(id = "schematicbrush", name = "schematicbrush", version = "1.1.3-SNAPSHOT", dependencies = @Dependency(id = "worldedit"))
 public class SchematicBrush {
 
     final Pattern uuidRegexp = Pattern.compile("^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$");
